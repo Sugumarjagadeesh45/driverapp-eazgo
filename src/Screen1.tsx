@@ -1982,6 +1982,8 @@ const DriverScreen = ({ route, navigation }: { route: any; navigation: any }) =>
           }
         }
 
+
+        
         if (!location) return;               // safety – should never happen
         watchId = Geolocation.watchPosition(
           (pos) => {
